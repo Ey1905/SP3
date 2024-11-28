@@ -1,0 +1,15 @@
+@startuml
+!pragma layout smetana
+actor User
+participant Main
+participant UserObject
+
+User -> Main : Enter Username
+Main -> User : Ask for password
+User -> Main : Give password
+Main -> UserObject : Check login details
+Main -> UserObject : Create User object
+
+User -> UserObject : addToWatchList(Movie)
+Main -> UserObject : displayWatchList()
+@enduml

@@ -1,0 +1,2 @@
+User1: Username: Nadine123, Password: password123, Watchlist: The Godfather, The Shawshank Redemption, Watch History: Raging Bull, Schindler's List;
+User2: Username: Ebru1905, Password: password1905, Watchlist: Citizen Kane, Gone With The Wind, Watch History: The Wizard Of Oz, Lawrence Of Arabia;

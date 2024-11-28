@@ -1,0 +1,10 @@
+Movie1: Title: The Godfather, Year: 1972, Genre: Crime, Drama, Rating: 9.2;
+Movie2: Title: The Shawshank Redemption, Year: 1994, Genre: Drama, Rating: 9.3;
+Movie3: Title: Schindler's List, Year: 1993, Genre: Biography, Drama, History, Rating: 8.9;
+Movie4: Title: Raging Bull, Year: 1980, Genre: Biography, Drama, Sport, Rating: 8.2;
+Movie5: Title: Casablanca, Year: 1942, Genre: Drama, Romance, War, Rating: 8.5;
+Movie6: Title: Citizen Kane, Year: 1941, Genre: Drama, Mystery, Rating: 8.4;
+Movie7: Gone With The Wind, Year: 1939, Genre: Drama, History, Romance, Rating: 8.2;
+Movie8: The Wizard Of Oz, Year: 1939, Genre: Adventure, Family, Fantasy, Rating: 8.0;
+Movie9: One Flew Over The Cuckoo's Nest, Year: 1975, Genre: Drama, Rating: 8.7;
+Movie10, Lawrence Of Arabia, Year: 1962, Genre: Adventure, Biography, Drama, Rating: 8.3;

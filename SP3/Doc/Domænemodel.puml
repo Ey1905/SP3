@@ -1,0 +1,25 @@
+@startuml
+!pragma layout smetana
+object StreamingSite
+object LogIn
+object Users
+object Movies
+object Genre
+object StartMenu
+object MainMenu
+object WatchHistory
+object WatchList
+
+
+StreamingSite *--- Movies: 10
+StreamingSite *-- Users: 2
+StreamingSite *--- StartMenu
+StreamingSite *--- MainMenu
+StreamingSite *--- Genre
+Users *-- LogIn
+Users *-- WatchList
+Users *-- WatchHistory
+StartMenu *--- WatchHistory
+StartMenu *-- WatchList
+Movies <|--- Genre
+@enduml

@@ -1,0 +1,35 @@
+@startuml
+!pragma layout smetana
+class StreamingSite{
+ - titleName: String
+ - users: ArrayList<User>
+ - movies: ArrayList<Movie>
+ + findMovieByTitle
+ + addMovie
+ + AddUser
+ }
+
+class User{
+ - username: String
+ - password: String
+ - watchList: ArrayList<Movie>
+ - watchHistory: ArrayList<Movie>
+}
+
+class Movie{
+ - title: String
+ - genre: String
+ - length: double
+ + toString(): String
+}
+
+class startMenu{
+ - logIn: String
+}
+
+class mainMenu{
+ - genre: ArrayList<genre>
+ - watchHistory: ArrayList<Movie>
+ - watchList: ArrayList<Movie>
+}
+@enduml
